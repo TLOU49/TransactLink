@@ -2,6 +2,7 @@ import React from 'react'
 import HomeScreenText from '../components/HomeScreenText'
 import Steps from '../components/Steps'
 import Features from '../components/Features'
+import WhoWeServe from '../components/WhoWeServe'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HomeScreenText/>
       <Steps/>
       <Features/>
+      <WhoWeServe/>
     </div>
   )
 }

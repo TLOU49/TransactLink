@@ -7,11 +7,17 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className='w-full bg-white px-6 sm:px-10 py-4 flex justify-between items-center'>
+    <div className='w-full bg-white px-6 sm:px-10 pt-4 flex justify-between items-center'>
         
         <div className="flex flex-row w-fit">
             {/* Logo */}
-            <h1 className="font-bold text-2xl sm:text-[35px] text-black">TransactLink</h1>
+            <div className="flex flex-col items-start ">
+              <h1 className="font-bold text-2xl sm:text-[35px] text-black border-2 border-gray-900 px-2 rounded-full">
+                TransactLink
+              </h1>
+              <span className="text-sm text-gray-900 ml-2">Empowering connectivity</span>
+            </div>
+
 
             {/* Desktop Menu */}
             <div className="hidden md:flex flex-row items-center space-x-8 text-gray-800 font-semibold text-[16px] ml-10">
