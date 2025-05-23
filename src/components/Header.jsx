@@ -11,11 +11,11 @@ const Header = () => {
         
         <div className="flex flex-row w-fit">
             {/* Logo */}
-            <div className="flex flex-col items-start ">
+            <div className="flex flex-col ">
               <h1 className="font-bold text-2xl sm:text-[35px] text-black border-2 border-gray-900 px-2 rounded-full">
                 TransactLink
               </h1>
-              <span className="text-sm text-gray-900 ml-2">Empowering connectivity</span>
+              <span className="text-[11px] text-gray-900 ml-2 text-center">Empowering connectivity</span>
             </div>
 
 
