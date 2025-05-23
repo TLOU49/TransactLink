@@ -48,7 +48,7 @@ const Features = () => {
           <h3 className="font-semibold text-lg mb-2">Geolocation and AI Technology</h3>
           <video
             className="w-full object-cover rounded p-4" 
-            // autoPlay muted loop playsInline
+            autoPlay muted loop playsInline
           >
             <source src={Geolocation} type="video/mp4" />
             Your browser does not support the video tag.
